@@ -4,6 +4,10 @@ let lapsCompleted = 0
 // Run it three times
 
 
-
-
+function lapsIncrement() {
+    lapsCompleted = lapsCompleted + 1
+}
+lapsIncrement()
+lapsIncrement()
+lapsIncrement()
 console.log(lapsCompleted)
